@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <!-- <link rel="stylesheet" type="text/CSS" href="style.css"> -->
+        <Style>
+            .img1{
+                margin-top:10px;
+                margin-left: 2px;
+            }
+            .container{
+                display: grid;
+                grid-template-columns: repeat(3,1fr);
+                grid-template-rows: repeat(2,1fr);
+                grid-gap: 20px;
+                grid-auto-flow: row dense;
+            }
+            .item{
+                border: 1px solid black;
+                border-radius: 10px;
+                padding-left: 25px;
+                background-color: darkorange;
+            }
+            .div1{
+               grid-area:2/3;
+               /* grid-column: 3/3;
+               grid-row: 2/4; */
+            }
+            /* .div2{
+                
+            }
+            .div3{
+                
+            }
+            .div4{
+                
+            }
+            .div5{
+                
+            } */
+            .div6{
+              /* grid-column: 1/span 3;  
+              grid-row: 1/1; */
+              grid-area: 1/1;
+            }
+        </Style>
+        <script>
+            function bill()
+            {
+                var bill = "bill.html";
+                window.location.href= bill;
+            }
+        </script>
+    </head>
+<body>
+    <div class="container">
+    <div class="div1 item">
+        <img class="img1" src="a1.png" alt="Asus Vivobook 15 X1502ZA Pic" width="290px" height="290px"><hr>
+            <h2>Asus Vivobook 15 X1502ZA</h2>
+            <ul><b>Selected Configuration</b>
+                <li>13th Generation Intel® Core™ i7 processor</li>
+                <li>Windows 11 Home</li>
+                <li>40.6 cm (16) diagonal WQXGA display with<br>NVIDIA GeForce RTX 3050 6GB</li>
+                <li>16 GB LPDDR5 RAM</li>
+                <li>1TB SSD Hard drive</li>
+                <li>Backlit keyboard/Wide Vision 5MP IR<br>camera/B&O Speakers</li>
+            </ul>
+            <h3 align="center"><span class="price">Price : 1,24,999/-</span></h3>
+            <button class="btn" onclick="bill()"><img src="cart.png" height="20px">Add to cart</button>
+    </div>
+    <div class="div2 item">
+        <img src="a2.png" alt="Asus ROG Zephyrus G14 2023 Pic" width="300px" height="300px"><hr>
+            <h2>Asus ROG Zephyrus G14 2023 (2023)</h2>
+            <ul><b>Selected Configuration</b>
+                <li>Display size 14.00-inch</li>
+                <li>Processor
+                    Core i5</li>
+                <li>RAM
+                    16GB</li>
+                <li>Intel IRIS Graphics</li>
+                <li>SSD
+                    512GB</li>
+                <li>OS
+                    Windows 11</li>
+            </ul>
+            <h3 align="center"><span class="price">Price : 85,999/-</span></h3>
+            <button class="btn" onclick="bill()"><img src="cart.png" height="20px">Add to cart</button>
+    </div>
+    <div class="div3 item">
+        <img src="a3.png" alt="Asus N202 Gaming Laptop Pic" width="300px" height="300px"><hr>
+            <h2>Asus N202 Gaming Laptop</h2>
+            <ul><b>Selected Configuration</b>
+                <li>13th Generation Intel® Core™ i7 processor</li>
+                <li>Windows 11 Home</li>
+                <li>40.6 cm (16) diagonal WQXGA display with<br>NVIDIA GeForce RTX 3050 6GB</li>
+                <li>16 GB LPDDR5 RAM</li>
+                <li>1TB SSD Hard drive</li>
+                <li>Backlit keyboard/Wide Vision 5MP IR<br>camera/B&O Speakers</li>
+            </ul>
+            <h3 align="center"><span class="price">Price : 78,999/-</span></h3>
+            <button class="btn" onclick="bill()"><img src="cart.png" height="20px">Add to cart</button>
+    </div>
+    <div class="div4 item">
+        <img src="a4.png" alt="Asus Vivobook 15 X1502ZA Pic" width="300px" height="300px"><hr>
+            <h2>Asus Vivobook 15</h2>
+            <ul><b>Selected Configuration</b>
+                <li>13th Generation Intel® Core™ i7 processor</li>
+                <li>Windows 11 Home</li>
+                <li>40.6 cm (16) diagonal WQXGA display with<br>NVIDIA GeForce RTX 3050 6GB</li>
+                <li>16 GB LPDDR5 RAM</li>
+                <li>1TB SSD Hard drive</li>
+                <li>Backlit keyboard/Wide Vision 5MP IR<br>camera/B&O Speakers</li>
+            </ul>
+            <h3 align="center"><span class="price">Price : 34,999/-</span></h3>
+            <button class="btn" onclick="bill()"><img src="cart.png" height="20px">Add to cart</button>
+    </div>
+    <div class="div5 item">
+        <img src="aa5.png" alt="Asus Vivobook 15 X1502ZA Pic" width="300px" height="300px"><hr>
+            <h2>Asus Heptus </h2>
+            <ul><b>Selected Configuration</b>
+                <li>13th Generation Intel® Core™ i7 processor</li>
+                <li>Windows 11 Home</li>
+                <li>40.6 cm (16) diagonal WQXGA display with<br>NVIDIA GeForce RTX 3050 6GB</li>
+                <li>16 GB LPDDR5 RAM</li>
+                <li>1TB SSD Hard drive</li>
+                <li>Backlit keyboard/Wide Vision 5MP IR<br>camera/B&O Speakers</li>
+            </ul>
+            <h3 align="center"><span class="price">Price : 44,999/-</span></h3>
+            <button class="btn" onclick="bill()"><img src="cart.png" height="20px">Add to cart</button>
+    </div>
+    <div class="div6 item">
+        <img src="a6.png" alt="Asus Vivobook 15 X1502ZA Pic" width="300px" height="300px"><hr>
+            <h2>Asus Flip</h2>
+            <ul><b>Selected Configuration</b>
+                <li>13th Generation Intel® Core™ i7 processor</li>
+                <li>Windows 11 Home</li>
+                <li>40.6 cm (16) diagonal WQXGA display with<br>NVIDIA GeForce RTX 3050 6GB</li>
+                <li>16 GB LPDDR5 RAM</li>
+                <li>1TB SSD Hard drive</li>
+                <li>Backlit keyboard/Wide Vision 5MP IR<br>camera/B&O Speakers</li>
+            </ul>
+            <h3 align="center"><span class="price">Price : 1,79,999/-</span></h3>
+           <button class="btn" onclick="bill()"><img src="cart.png" height="20px"> Add to cart</button>
+    </div>
+</div>
+</body>
+</html>
